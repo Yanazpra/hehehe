@@ -80,29 +80,14 @@ body {
 		z-index: 1;
 	}
 
-	.ucapan h5{
-		margin-bottom: 10px;
-		font-size: 15px;
-	}
-
 	.ucapan h1{
-		font-size: 45px;
+		font-size: 4vh;
 		margin-bottom: 20px;
-		font-family: 'Dancing Script', cursive;
+		font-family: "Montserrat", sans-serif;
 	}
 
 	.ucapan h2{
-		font-size: 15px;
-	}
-
-	.ucapan h3{
-		font-size: 15px;
-		padding-bottom: 5px;
-	}
-
-	.ucapan h4{
-		font-size: 10px;
-		margin-bottom: 25px;
+		font-size: 1.7vh;
 	}
 
 	.tombol	{
@@ -116,6 +101,7 @@ body {
 		background-color: #E2B84B;
 		text-align: center;
 		z-index: 1;
+		margin-top: 30px;
 	}
 
 	#hero .efek-ft{

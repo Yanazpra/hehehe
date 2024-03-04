@@ -218,10 +218,9 @@ body {
 		text-align: center;
 		align-items: center;
 	}
-
-	.typed-txt {
-		font-weight: normal;
-		color: black;
+	
+	.ucapan p{
+		font-size: 1px;
 	}
 
 	.cursor {
