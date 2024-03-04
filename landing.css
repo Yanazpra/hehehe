@@ -68,8 +68,7 @@ body {
 	--------------------------------------------------------------*/
 	#hero{
 		height: 100vh;
-		background: url("../img/prewed(6).jpg")center;
-		background-size: cover;
+		background: #111F29;
 	}
 
 	.ucapan{
@@ -125,5 +124,5 @@ body {
 		height: 100vh;
 		left: 0px;
 		top: 0px;
-		background: rgba(0, 0, 0, 0.4);
+		background: #111F29;
 	}
