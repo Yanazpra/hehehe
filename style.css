@@ -1,0 +1,693 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+/* STYLE */
+
+html {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+
+/* web desktop */
+@media only screen and (min-width: 800px) {
+
+	.konten {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(150.02deg, #54F5FF 7.62%, #ACF5D1 42.35%, #B0F5CE 51.23%, #BAF5C9 62.03%, #F4F5AB 81.71%);
+		overflow: hidden;
+		align-items: center;
+	}
+
+	/*window utama*/
+	.konten .main-win {
+		position: relative;
+		width: 700px;
+		height: 550px;
+		padding-top: 3px;
+		padding-right: 3px;
+		padding-bottom: 3px;
+		padding-left: 3px;
+		margin: auto;
+		top: 5%;
+		background: #FFFFFF;
+		border-radius: 30px;
+		overflow: hidden;
+		box-sizing: border-box;
+	}
+
+	.main-win .navbar {
+		position: absolute;
+		width: 694px;
+		height: 50px;
+		background: #72896F;
+		border-radius: 27px 27px 0px 0px;
+	}
+
+	.navbar .selamat {
+		font-family: Montserrat, sans-serif;
+		font-weight: 600;
+		color: white;
+		text-align: center;
+		line-height: 50px;
+	}
+
+	.navbar-btn .btn1 {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 15px;
+		top: 15px;
+		border-radius: 50%;
+		background: #FF5A52;
+	}
+
+	.navbar-btn .btn2 {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 45px;
+		top: 15px;
+		border-radius: 50%;
+		background: #E6C029;
+	}
+
+	.navbar-btn .btn3 {
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		left: 75px;
+		top: 15px;
+		border-radius: 50%;
+		background: #53C22B;
+	}
+
+	.main-win .foto {
+		position: absolute;
+		width: 694px;
+		height: 490px;
+		background-image: url(img/desktop.JPG);
+		background-size: cover;
+		background-position: 0px -60px;
+		top: 56.5px;
+		border-radius: 0px 0px 27px 27px;
+	}
+
+
+
+	/*window text*/
+	.teks {
+		position: absolute;
+		right: 5%;
+		top: 56%;
+		height: 260px;
+		width: 400px;
+		background-color: #a2e1d8;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+		border-color: white;
+		box-sizing: border-box;
+	}
+
+	.teks .kotak {
+		position: absolute;
+		width: 394px;
+		height: 50px;
+		background-color: #72896F;
+		border-radius: 26px 26px 0 0;
+	}
+
+	.kotak .btn4 {
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 12px;
+		top: 16px;
+		border-radius: 50%;
+		background: #FF5A52;
+	}
+
+	.kotak .btn5 {
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 38px;
+		top: 16px;
+		border-radius: 50%;
+		background: #E6C029;
+	}
+
+	.kotak .btn6 {
+		position: absolute;
+		width: 18px;
+		height: 18px;
+		left: 65px;
+		top: 16px;
+		border-radius: 50%;
+		background: #53C22B;
+	}
+
+	.kotak h1 {
+		line-height: 50px;
+		text-align: center;
+	}
+
+	/* Kata Ucapan*/
+	.teks .ucapan {
+		position: absolute;
+		height: 0px;
+		display: block;
+		top: 90px;
+		left: 10px;
+		right: 10px;
+		text-align: center;
+		align-items: center;
+	}
+
+	.typed-txt {
+		font-weight: normal;
+		color: black;
+	}
+
+	.cursor {
+		display: inline-block;
+		width: 2px;
+		color: #ccc;
+	}
+
+	/*vektooorrr*/
+	.hp {
+		visibility: hidden;
+	}
+
+	.kanan {
+		position: absolute;
+		right: 12%;
+		top: 30%;
+	}
+
+	.kiri {
+		position: absolute;
+		left: 12%;
+		top: 50%;
+	}
+
+	.atas {
+		position: absolute;
+		top: 10px;
+		left: 0;
+		width: 230px;
+	}
+
+	.bawah {
+		position: absolute;
+		bottom: -30px;
+		left: 40%;
+	}
+
+	.x1 {
+		position: absolute;
+		left: 250px;
+		top: 30px;
+		animation-name: muter-balik;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x2 {
+		position: absolute;
+		left: 80%;
+		top: 120px;
+		animation-name: muter;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x3 {
+		position: absolute;
+		left: 5%;
+		top: 430px;
+		animation-name: muter;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x4 {
+		position: absolute;
+		left: 50%;
+		bottom: 5%;
+		animation-name: muter-balik;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		visibility: hidden;
+	}
+
+	.setia1 {
+		position: absolute;
+		left: 5%;
+		top: 200px;
+		animation-name: muter;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia2 {
+		position: absolute;
+		left: 95%;
+		top: 25%;
+		animation-name: muter-balik;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia3 {
+		position: absolute;
+		left: 19%;
+		top: 80%;
+		animation-name: muter;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia4 {
+		position: absolute;
+		left: 39%;
+		top: 92%;
+		animation-name: muter-balik;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+		visibility: hidden;
+	}
+
+}
+
+
+/* TAMPILAN HP */
+@media only screen and (max-width: 800px) {
+
+	.konten {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background: linear-gradient(150.02deg, #54F5FF 7.62%, #ACF5D1 42.35%, #B0F5CE 51.23%, #BAF5C9 62.03%, #F4F5AB 81.71%);
+		overflow: hidden;
+	}
+
+	/*WINDOW UTAMA*/
+	.konten .main-win {
+		position: relative;
+		width: 300px;
+		height: 500px;
+		border-color: white;
+		border-width: 3px;
+		border-style: solid;
+		margin: auto;
+		margin-top: 70px;
+		background: #FFFFFF;
+		border-radius: 30px;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.navbar .ucap {
+		font-size: 10px;
+		font-weight: 600;
+		color: white;
+		text-align: center;
+		line-height: 40px;
+	}
+
+	.main-win .navbar {
+		position: absolute;
+		width: 294px;
+		height: 40px;
+		background: #72896F;
+		border-radius: 27px 27px 0px 0px;
+	}
+
+	.navbar-btn .btn1 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 10px;
+		top: 12px;
+		border-radius: 7.5px;
+		background: #FF5A52;
+	}
+
+	.navbar-btn .btn2 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 30px;
+		top: 12px;
+		border-radius: 7.5px;
+		background: #E6C029;
+	}
+
+	.navbar-btn .btn3 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 50px;
+		top: 12px;
+		border-radius: 7.5px;
+		background: #53C22B;
+	}
+
+	.main-win .foto {
+		position: absolute;
+		width: 294px;
+		height: 451px;
+		background-image: url(img/DSC03197.JPG);
+		background-size: cover;
+		background-repeat: no-repeat;
+		top: 43px;
+		border-radius: 0px 0px 27px 27px;
+	
+	}
+
+
+	/*TOMBOL ALERT*/
+
+
+
+	
+	/*WINDOW TEKS*/
+	.teks {
+		position: absolute;
+		right: 1%;
+		top: 425px;
+		height: 200px;
+		width: 250px;
+		background-color: #a2e1d8;
+		border-radius: 30px;
+		border-style: solid;
+		border-width: 3px;
+		border-color: white;
+		box-sizing: border-box;
+		overflow: hidden;
+	}
+
+	.teks .kotak {
+		position: absolute;
+		width: 244px;
+		height: 35px;
+		background-color: #72896F;
+		border-radius: 26px 26px 0 0;
+	}
+
+	.kotak h1 {
+		text-align: center;
+		line-height: 35px;
+		font-size: 12px;
+		color: white
+	}
+
+	.kotak .btn4 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 10px;
+		top: 10px;
+		border-radius: 50%;
+		background: #FF5A52;
+	}
+
+	.kotak .btn5 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 33px;
+		top: 10px;
+		border-radius: 50%;
+		background: #E6C029;
+	}
+
+	.kotak .btn6 {
+		position: absolute;
+		width: 15px;
+		height: 15px;
+		left: 56px;
+		top: 10px;
+		border-radius: 50%;
+		background: #53C22B;
+	}
+
+	/* Kata Ucapan*/
+	.teks .ucapan {
+		position: absolute;
+		height: 0px;
+		display: block;
+		top: 50px;
+		left: 10px;
+		right: 10px;
+		font-size: 16px;
+		align-items: center;
+		text-align: center;
+	}
+
+	.typed-txt {
+		font-weight: normal;
+		color: black;
+	}
+
+	.kursor {
+		display: inline-block;
+		width: 2px;
+		color: #ccc;
+		margin-left: 0.1rem;
+		animation: blink 1s infinite;
+	}
+
+	.kursor .typing {
+		animation: none;
+	}
+
+	@keyframes blink {
+		0% {
+			background-color: #ccc;
+		}
+
+		49% {
+			background-color: #ccc;
+		}
+
+		50% {
+			background-color: transparent;
+		}
+
+		99% {
+			background-color: transparent;
+		}
+
+		100% {
+			background-color: #ccc;
+		}
+	}
+
+
+
+
+	/*VEKTOR*/
+
+	.desk {
+		visibility: hidden;
+	}
+
+	.x1 {
+		position: absolute;
+		left: 5%;
+		top: 90px;
+		width: 25px;
+		animation-name: muter-balik;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x2 {
+		position: absolute;
+		right: 6%;
+		top: 200px;
+		width: 25px;
+		animation-name: muter;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x3 {
+		position: absolute;
+		left: 3%;
+		top: 510px;
+		width: 25px;
+		animation-name: muter;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.x4 {
+		position: absolute;
+		right: 100px;
+		top: 650px;
+		width: 25px;
+		animation-name: muter-balik;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.atas {
+		position: absolute;
+		top: -2%;
+		width: 200px;
+		left: -1%;
+	}
+
+	.biru {
+		position: absolute;
+		right: -20px;
+		top: 260px;
+	}
+
+	.krem {
+		position: absolute;
+		left: -40px;
+		top: 380px;
+	}
+
+	.setia1 {
+		position: absolute;
+		right: 30%;
+		top: 10px;
+		width: 30px;
+		animation-name: muter;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia2 {
+		position: absolute;
+		left: 1%;
+		top: 250px;
+		width: 30px;
+		animation-name: muter-balik;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia3 {
+		position: absolute;
+		right: 1%;
+		top: 390px;
+		width: 30px;
+		animation-name: muter;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+	.setia4 {
+		position: absolute;
+		left: 19%;
+		top: 600px;
+		width: 30px;
+		animation-name: muter-balik;
+		animation-duration: 10s;
+		animation-iteration-count: infinite;
+		animation-timing-function: linear;
+	}
+
+}
+
+
+
+
+/* animasi */
+
+@keyframes muter {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes muter-balik {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(-360deg);
+	}
+}
