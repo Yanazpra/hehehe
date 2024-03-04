@@ -76,14 +76,13 @@ body {
 		text-shadow: #364655;
 		text-align: center;
 		text-transform: none;
-		font-family: 'Poppins', sans-serif;
+		font-family: "Montserrat", sans-serif;
 		z-index: 1;
 	}
 
 	.ucapan h1{
 		font-size: 4vh;
 		margin-bottom: 20px;
-		font-family: "Montserrat", sans-serif;
 	}
 
 	.ucapan h2{
